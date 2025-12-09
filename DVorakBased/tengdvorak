@@ -1,0 +1,54 @@
+
+xkb_symbols "basic"
+{
+	name[Group1] = "Tengwar Unicode Dvorak";
+	key <AB01> { [          UE017,          NoSymbol,		U2019                     ] };
+	key <AB02> { [          UE029,          UE039,          UE03C,          UE037] };
+	key <AB03> { [          UE006,          UE00E,          UE01E                     ] };
+	key <AB04> { [          UE003,          UE00B,          UE01B                     ] };
+	key <AB05> { [          UE058,          UE059                               		  ] };
+	key <AB06> { [          UE005,          UE00D,          UE01D                    ] };
+	key <AB07> { [          UE011,          UE03A,          UE03B                    ] };
+	key <AB08> { [          UE015,          UE052,          UE031,          UE03D] };
+	key <AB09> { [          UE00D,          UE036,          UE01D                     ] };
+	key <AB10> { [          UE026,          UE027                                 		  ] };
+	key <AC01> { [          UE040,          UE032,          UE041,          UE056 ] };
+	key <AC02> { [          UE04A,          UE030,          UE04B                  	] };
+	key <AC03> { [          UE046,          UE02A,          UE047,          UE055] };
+	key <AC04> { [          UE04C,          UE02B,          UE04D,          UE03D] };
+	key <AC05> { [          UE044,          UE05A,          UE045                 	 ] };
+	key <AC06> { [          UE004,          UE00C,          UE01C                 	 ] };
+	key <AC07> { [          UE028,          UE02D,          UE057                    ] };
+	key <AC08> { [          UE000,          UE008,          UE018          			   ] };
+	key <AC09> { [          UE010,          UE013,          UE012                    ] };
+	key <AC10> { [          UE024,          UE025                                 		 ] };
+	key <AC11> { [          UE050,          UE051,          UE049,          UE057] };
+	key <AD01> { [          U10FB,          U205D,          semicolon,		colon ] };
+	key <AD02> { [          U2E31,          UE061,          comma         			 ] };
+	key <AD03> { [          U2058,          U2E2C,          period					 ] };
+	key <AD04> { [          UE001,          UE009,          UE019                 	 ] };
+	key <AD05> { [          UE016,          UE042,          UE043,          UE053] };
+	key <AD06> { [          UE009,          NoSymbol,          UE019                  ] };
+	key <AD07> { [          UE007,          UE00F,          UE01F                 	    ] };
+	key <AD08> { [          UE002,          UE00A,          UE01A                   	] };
+	key <AD09> { [          UE020,          UE014,          UE021                   	] };
+	key <AD10> { [          UE022,          UE023                                 			] };
+	key <AD11> { [          UE068,          UE066,          slash,       question ] };
+	key <AD12> { [          UE02E,       	UE06C,          U2018,          U2019 ] };
+	key <AE01> { [          UE071,          UE065								           ] };
+	key <AE02> { [          UE06A,	    	UE077,          UE07C                    ] };
+	key <AE03> { [          U201C,          UEO75					                     ] };
+	key <AE04> { [          U201D,			UE073                                           ] };
+	key <AE05> { [          UE067,			UEO71                                             ] };
+	key <AE06> { [          UE069,          UE079                          				     ] };
+	key <AE07> { [          U2E2D,          UE070                    			             ] };
+	key <AE08> { [          U200D,          UE072                   			              ] };
+	key <AE09> { [          U200C,          UE074,         parenleft 					] };
+	key <AE10> { [          UE06B,          UE076,          parenright 					] };
+	key <AE11> { [          UE065,          UE078					                     ] };
+	key <AE12> { [          UE07D,          UE054						                 ] };
+	key <BKSL> { [          UE02C,          UE034            							     ] };
+	key <LSGT> { [          UE02C,          UE034               						  ] };
+	key <TLDE> { [          UE07B,			UE07A                                           ] };
+};
+
