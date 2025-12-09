@@ -6,10 +6,10 @@ information, see http://freetengwar.sourceforge.net/
 
 INSTALLATION
 
-```sh
+
 chmod +x install.sh
 sudo ./install.sh
-```
+
 
 If successful, the script will also generate an uninstall script.
 
@@ -17,16 +17,16 @@ If you prefer to install manually, first move tengdvorak to
 "the right place". Where this is depends on your Linux version.
 The following works for the latest versions of Ubuntu:
 
-```sh
+
 sudo cp tengdvorak /usr/share/X11/xkb/symbols/
-```
+
 
 Then edit "the right file". Again, on the latest version of Ubuntu,
 this is /usr/share/X11/xkb/rules/evdev.xml, but your system
 may be configured differently. When you have found the file, add
 the following code just before "</layoutList>"
 
-```xml
+
     <layout>
       <configItem>
         <name>tengdvorak</name>
@@ -36,7 +36,7 @@ the following code just before "</layoutList>"
       </configItem>
       <variantList/>
     </layout>
-```
+
 
 After a successfull installation, you will have to enable the
 keyboard layout. If you are using GNOME, you may find this option
