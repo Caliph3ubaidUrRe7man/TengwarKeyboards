@@ -1,11 +1,11 @@
 # TengwarKeyboards
 
-A curated collection of Tengwar fonts and keyboard layouts derived from the FreeTengwar project (freetengwar.sourceforge.net). This repository packages the official fonts and the Tengwar QWERTY keyboard and adds a Dvorak-based layout used by the maintainer.
+A curated collection of Tengwar fonts and keyboard layouts derived from the FreeTengwar project (https://freetengwar.sourceforge.net). This repository packages the official fonts and the Tengwar QWERTY keyboard and adds a Dvorak-based layout used by the maintainer.
 
 **Repository purpose**: provide packaged Tengwar fonts and keyboard layouts, include a Dvorak-based layout variation, document compatibility constraints (notably Graphite font limitations), and preserve original licensing and source references.
 
 **Quick summary**
-- Source: Based on the FreeTengwar project (freetengwar.sourceforge.net). Documentation on that site is largely outdated (over 15 years old) — this repo preserves the original resources and adds a Dvorak-based keyboard.
+- Source: Based on the FreeTengwar project (https://freetengwar.sourceforge.net). Documentation on that site is largely outdated (over 15 years old) — this repo preserves the original resources and adds a Dvorak-based keyboard.
 - Main addition: a Dvorak-based Tengwar keyboard layout (see `DVorakBased`).
 - Important compatibility note: the `Tengwar Telcontar` font is a Graphite font. Graphite fonts only work in applications that support the Graphite engine (LibreOffice / OpenOffice are confirmed to work). Microsoft Office, Google Docs, and many other proprietary systems do not support Graphite; using these fonts in formats such as `.docx` or Google Docs will likely break rendering. For documents using these fonts prefer open formats such as ODF.
 
@@ -52,7 +52,7 @@ fc-cache -f -v
 - If you add new layouts or fonts, include a short README in the corresponding folder explaining usage and any special compatibility notes.
 
 ## Contact & references
-- Original project: FreeTengwar (freetengwar.sourceforge.net)
+- Original project: FreeTengwar (https://freetengwar.sourceforge.net)
 - This repository preserves and repackages those resources and provides an additional Dvorak-based keyboard layout.
 
 ---
